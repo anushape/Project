@@ -3,7 +3,7 @@ package Mytests;
 import org.testng.annotations.Test;
 
 public class GuruTest extends BaseTest {
-
+//anusha
 @Test (priority=1)
 void Login() {
 	LP.Login_Details(prop.getProperty("UserId"), prop.getProperty("PWD"));
